@@ -33,3 +33,9 @@ body::after {
   top: -70px;
   left: 56px;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
