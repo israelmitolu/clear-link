@@ -4,6 +4,7 @@ import Hero from "./sections/Hero";
 import WhyClearlink from "./sections/WhyClearlink";
 import Testimonials from "./sections/Testimonials";
 import FAQs from "./sections/FAQs";
+import CTA from "./sections/CTA";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <WhyClearlink />
       <Testimonials />
       <FAQs />
+      <CTA />
     </>
   );
 }

@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
-const Button = ({ bgColor, textColor, text }) => {
+const Button = ({ className, bgColor, textColor, text }) => {
   return (
     <button
-      className={`px-[24px] py-[14px] font-semibold text-base rounded-[100px] ${bgColor} ${textColor} `}
+      className={`${className} px-[24px] py-[14px] h-[52px] font-semibold text-base rounded-[100px] ${bgColor} ${textColor} `}
     >
       {text}
     </button>
@@ -10,6 +10,7 @@ const Button = ({ bgColor, textColor, text }) => {
 };
 
 Button.propTypes = {
+  className: PropTypes.string,
   bgColor: PropTypes.string.isRequired,
   textColor: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
