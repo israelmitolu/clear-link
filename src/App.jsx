@@ -9,7 +9,8 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    // <main className="max-w-[1778px] mx-auto">
+    <main className="max-w-[1778px] mx-auto">
       <Navbar />
       <Hero />
       <Companies />
@@ -18,7 +19,7 @@ function App() {
       <FAQs />
       <CTA />
       <Footer />
-    </>
+    </main>
   );
 }
 

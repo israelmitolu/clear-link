@@ -2,13 +2,15 @@ import FAQItem from "../components/FAQItem";
 
 const FAQs = () => {
   return (
-    <section className="py-[96px] min-h-[912px] w-full bg-white flex items-start justify-between gap-[96px]">
+    <section className="px-6 xl:px-[160px] py-10 md:py-[96px] min-h-[912px] max-w-[1778px] w-full bg-white flex flex-col md:flex-row items-start justify-between gap-[96px]">
       <div>
-        <h3 className="text-[#175CD3] font-semibold text-lg ">Support</h3>
-        <h2 className="text-[#1D2939] font-semibold text-5xl leading-[60px]">
+        <h3 className="text-[#175CD3] font-semibold text-sm md:text-lg  ">
+          Support
+        </h3>
+        <h2 className="text-[#1D2939] font-semibold text-3xl md:text-5xl leading-[60px]">
           FAQs
         </h2>
-        <p className="text-[#667085] text-xl mt-[14px]">
+        <p className="text-[#667085] text-base md:text-xl mt-[14px]">
           Everything you need to know about the product and billing. Can’t find
           the answer you’re looking for? Please{" "}
           <u className="cursor-pointer">chat to our friendly team.</u>

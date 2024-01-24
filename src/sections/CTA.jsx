@@ -3,12 +3,12 @@ import CheckItem from "../components/CheckItem";
 
 const CTA = () => {
   return (
-    <section className="h-[697px] py-[96px] w-full bg-white relative">
-      <div className="w-[45%]">
-        <h2 className="text-5xl leading-[60px] tracking-[-2%] font-semibold mb-8">
+    <section className="min-h-[697px] max-w-[1778px] px-6 xl:px-[160px] py-[96px] w-full bg-white relative">
+      <div className="w-full md:w-[45%]">
+        <h2 className="text-3xl md:text-5xl md:leading-[60px] tracking-[-2%] font-semibold mb-8">
           Ready to clear the path to perfect communication?
         </h2>
-        <div className="flex flex-col justify-center gap-5 pl-4 mb-10">
+        <div className="flex flex-col justify-center gap-5 md:pl-4 mb-10">
           <CheckItem text="30 days free trial" />
           <CheckItem text="Cancel at any time" />
           <CheckItem text="Access to all features" />
@@ -32,7 +32,7 @@ const CTA = () => {
       <img
         src="/images/CTA Image.png"
         alt=""
-        className="absolute top-0 right-[-200px]"
+        className="w-full md:w-auto h-auto mt-10 md:mt-0 md:absolute md:top-0 md:right-[-200px]"
       />
     </section>
   );

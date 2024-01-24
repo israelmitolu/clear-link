@@ -1,16 +1,40 @@
 const Companies = () => {
   return (
-    <div className="h-[313px] w-full mt-[96px] py-[96px] flex flex-col items-center justify-center">
-      <p className="font-medium text-md 2xl:text-lg text-[#475467]">
+    <div className="px-6 xl:px-[160px] min-h-[313px] max-w-[1778px] w-full mt-10 md:mt-[96px] py-[96px] flex flex-col items-center justify-center">
+      <p className="font-medium text-md 2xl:text-lg text-[#475467] text-center ">
         Join 1,500+ companies already video conferencing the ClearLink way
       </p>
-      <div className="mt-12 flex items-center justify-center max-sm:flex-wrap gap-[69px]">
-        <img src="/icons/Shopify.svg" alt="Shopify" />
-        <img src="/icons/Coinbase.svg" alt="Coinbase" />
-        <img src="/icons/Dropbox.svg" alt="Dropbox" />
-        <img src="/icons/Intercom.svg" alt="Intercom" />
-        <img src="/icons/Marvel.svg" alt="Marvel" />
-        <img src="/icons/Automattic.svg" alt="Automattic" />
+      <div className="mt-12 flex items-center justify-center lg:flex-wrap gap-[69px]">
+        <img
+          src="/icons/Shopify.svg"
+          alt="Shopify"
+          className="w-[100px] h-auto md:w-auto"
+        />
+        <img
+          src="/icons/Coinbase.svg"
+          alt="Coinbase"
+          className="w-[100px] h-auto md:w-auto"
+        />
+        <img
+          src="/icons/Dropbox.svg"
+          alt="Dropbox"
+          className="w-[100px] h-auto md:w-auto"
+        />
+        <img
+          src="/icons/Intercom.svg"
+          alt="Intercom"
+          className="w-[100px] h-auto md:w-auto"
+        />
+        <img
+          src="/icons/Marvel.svg"
+          alt="Marvel"
+          className="w-[100px] h-auto md:w-auto"
+        />
+        <img
+          src="/icons/Automattic.svg"
+          alt="Automattic"
+          className="w-[100px] h-auto md:w-auto"
+        />
       </div>
     </div>
   );
