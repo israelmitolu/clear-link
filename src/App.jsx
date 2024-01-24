@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     // <main className="max-w-[1778px] mx-auto">
-    <main className="max-w-[1778px] mx-auto">
+    <main className="main max-w-[1778px] mx-auto overflow-x-hidden">
       <Navbar />
       <Hero />
       <Companies />
