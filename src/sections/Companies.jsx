@@ -4,7 +4,7 @@ const Companies = () => {
       <p className="font-medium text-md 2xl:text-lg text-[#475467]">
         Join 1,500+ companies already video conferencing the ClearLink way
       </p>
-      <div className="mt-12 flex items-center gap-[69px]">
+      <div className="mt-12 flex items-center justify-center max-sm:flex-wrap gap-[69px]">
         <img src="/icons/Shopify.svg" alt="Shopify" />
         <img src="/icons/Coinbase.svg" alt="Coinbase" />
         <img src="/icons/Dropbox.svg" alt="Dropbox" />

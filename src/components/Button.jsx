@@ -1,5 +1,4 @@
-import { ReactPropTypes } from "react";
-
+import PropTypes from "prop-types";
 const Button = ({ bgColor, textColor, text }) => {
   return (
     <button
@@ -11,9 +10,9 @@ const Button = ({ bgColor, textColor, text }) => {
 };
 
 Button.propTypes = {
-  bgColor: ReactPropTypes.string,
-  textColor: ReactPropTypes.string,
-  text: ReactPropTypes.string,
+  bgColor: PropTypes.string.isRequired,
+  textColor: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 export default Button;

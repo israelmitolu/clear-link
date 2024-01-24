@@ -19,7 +19,7 @@ const Hero = () => {
             textColor="text-[#fff]"
             text="Start your free trial"
           />
-          <div className="flex items-center justify-center gap-3">
+          <div className="flex items-center justify-center gap-3 cursor-pointer">
             <img src="/icons/Robot.svg" alt="AI image" />
             <p className="font-semibold text-lg text-[#175CD3]">
               Discover AI assistant
@@ -50,7 +50,7 @@ const Hero = () => {
       <img
         src="/images/Hero Image.png"
         alt="Hero Image"
-        className="w-[584px] h-[488px]"
+        className="w-[584px] h-[488px] object-cover"
       />
     </section>
   );
