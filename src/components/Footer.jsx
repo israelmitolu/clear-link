@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-white w-full ">
+    <footer className="bg-white w-full px-6 xl:px-[160px] max-w-[1778px] ">
       <div className="mx-auto pt-16 lg:pt-24">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
@@ -222,7 +222,7 @@ const Footer = () => {
             <div className="text-center sm:text-left">
               <p className="font-semibold text-[#004EEB]">Get the app</p>
 
-              <ul className="mt-4 space-y-4 text-sm">
+              <ul className="mt-4 space-y-4 text-sm flex flex-col items-center md:items-start">
                 <li>
                   <img src="/images/Play store.png" alt="Play store" />
                 </li>

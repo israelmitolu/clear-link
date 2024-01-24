@@ -11,7 +11,9 @@ const FAQItem = ({ isOpen, title, description }) => {
       open={isOpen}
     >
       <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-        <h2 className="text-lg font-semibold text-[#101828]">{title}</h2>
+        <h2 className="text-base md:text-lg font-semibold text-[#101828]">
+          {title}
+        </h2>
 
         <span className="relative h-5 w-5 shrink-0">
           <svg
@@ -46,7 +48,7 @@ const FAQItem = ({ isOpen, title, description }) => {
         </span>
       </summary>
 
-      <p className="mt-4 text-base leading-relaxed text-[#475467]">
+      <p className="mt-4 text-sm md:text-base leading-relaxed text-[#475467]">
         {description}
       </p>
     </details>

@@ -4,7 +4,7 @@ const CheckItem = ({ text }) => {
   return (
     <div className="flex items-center gap-1">
       <img src="/icons/Check icon.svg" alt="checkmark" className="h-7 w-7" />
-      <span>{text}</span>
+      <span className="text-sm md:text-base">{text}</span>
     </div>
   );
 };
