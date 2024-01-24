@@ -5,6 +5,7 @@ import WhyClearlink from "./sections/WhyClearlink";
 import Testimonials from "./sections/Testimonials";
 import FAQs from "./sections/FAQs";
 import CTA from "./sections/CTA";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Testimonials />
       <FAQs />
       <CTA />
+      <Footer />
     </>
   );
 }
