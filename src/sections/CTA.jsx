@@ -3,7 +3,7 @@ import CheckItem from "../components/CheckItem";
 
 const CTA = () => {
   return (
-    <section className="min-h-[697px] max-w-[1778px] px-6 xl:px-[160px] py-[96px] w-full bg-white relative">
+    <section className="min-h-[697px] max-w-[1778px] px-6 xl:px-[56px] 2xl:px-[130px] py-[96px] w-full bg-white relative">
       <div className="w-full md:w-[45%]">
         <h2 className="text-3xl md:text-5xl md:leading-[60px] tracking-[-2%] font-semibold mb-8">
           Ready to clear the path to perfect communication?
@@ -32,7 +32,7 @@ const CTA = () => {
       <img
         src="/images/CTA Image.png"
         alt=""
-        className="w-full md:w-auto h-auto mt-10 md:mt-0 md:absolute md:top-0 md:right-[-200px]"
+        className="w-full md:w-auto h-auto mt-10 xl:mt-0 xl:absolute xl:top-0 xl:right-[-200px]"
       />
     </section>
   );

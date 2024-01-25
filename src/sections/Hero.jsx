@@ -2,13 +2,13 @@ import Button from "../components/Button";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col lg:flex-row items-center justify-center gap-[44px] max-w-[1778px] px-6 xl:px-[160px]">
+    <section className="flex flex-col lg:flex-row items-center justify-center gap-[44px] max-w-[1778px] px-6 xl:px-[56px] 2xl:px-[130px]">
       <div className="max-w-[780px] w-full">
-        <h1 className="font-semibold text-5xl md:text-[64px] md:leading-[72px] tracking-[-2%] mb-6">
+        <h1 className="font-semibold text-4xl sm:text-5xl xl:text-[64px] xl:leading-[72px] tracking-[-2%] mb-6">
           Uniting the world,
           <br /> one video call at a time
         </h1>
-        <p className="text-[#667085] mb-[48px] text-sm md:text-2xl">
+        <p className="text-[#667085] mb-[48px] text-sm xl:text-2xl">
           Experience the future of communication with ClearLink – where
           crystal-clear video conferencing meets unparalleled simplicity.
         </p>
@@ -50,7 +50,7 @@ const Hero = () => {
       <img
         src="/images/Hero Image.png"
         alt="Hero Image"
-        className="w-full h-auto  md:w-[584px] md:h-[488px] object-cover"
+        className="w-full h-auto md:w-[450px] xl:w-[584px] xl:h-[488px] object-cover"
       />
     </section>
   );

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-white w-full px-6 xl:px-[160px] max-w-[1778px] ">
+    <footer className="bg-white w-full px-6 xl:px-[56px] 2xl:px-[130px] max-w-[1778px]">
       <div className="mx-auto pt-16 lg:pt-24">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
@@ -235,7 +235,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 h-[120px] border-t border-gray-100 pt-12 bg-[#F9FAFB]">
+        <div className="mt-12 min-h-[120px] border-t border-gray-100 pt-12 bg-[#F9FAFB]">
           <div className="text-center sm:flex sm:justify-between sm:text-left">
             <ul className="mt-4 flex justify-center items-center gap-6 sm:mt-0 sm:justify-start">
               <li>
@@ -370,7 +370,7 @@ const Footer = () => {
               </li>
             </ul>
 
-            <p className="mt-4 text-base text-[#667085] sm:order-first sm:mt-0">
+            <p className="mt-4 text-sm md:text-base text-[#667085] sm:order-first sm:mt-0 h-[8vh] md:h-auto">
               &copy; 2023 ClearLink. All rights reserved.
             </p>
           </div>

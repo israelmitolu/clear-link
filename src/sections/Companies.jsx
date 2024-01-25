@@ -1,6 +1,6 @@
 const Companies = () => {
   return (
-    <div className="px-6 xl:px-[160px] min-h-[313px] max-w-[1778px] w-full mt-10 md:mt-[96px] py-[96px] flex flex-col items-center justify-center">
+    <div className="px-6 xl:px-[56px] 2xl:px-[130px] min-h-[313px] max-w-[1778px] w-full mt-10 md:mt-[96px] py-[96px] flex flex-col items-center justify-center">
       <p className="font-medium text-md 2xl:text-lg text-[#475467] text-center ">
         Join 1,500+ companies already video conferencing the ClearLink way
       </p>

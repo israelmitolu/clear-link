@@ -8,10 +8,10 @@ const FeatureCard = ({ icon, heading, description }) => {
         className="w-10 h-auto md:w-[56px] md:h-[56px]"
       />
       <div>
-        <h4 className="mb-2 text-[#101828] font-semibold text-lg md:text-xl">
+        <h4 className="mb-2 text-[#101828] font-semibold text-lg xl:text-xl">
           {heading}
         </h4>
-        <p className="text-[#475467] text-sm md:text-lg">{description}</p>
+        <p className="text-[#475467] text-sm xl:text-lg">{description}</p>
       </div>
     </div>
   );

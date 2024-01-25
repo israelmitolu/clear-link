@@ -1,7 +1,7 @@
 const Testimonials = () => {
   return (
     <section className="min-h-[748px] max-w-[1778px] mt-8 md:mt-0 w-full bg-[#F9FAFB] ">
-      <div className=" flex flex-col md:flex-row items-center justify-between gap-[64px] px-6 xl:px-[160px] py-6 md:py-[96px]">
+      <div className=" flex flex-col xl:flex-row items-center justify-between gap-[64px] px-6 xl:px-[56px] 2xl:px-[130px] py-6 md:py-[96px]">
         <div>
           <img
             src="/icons/Shopify.svg"

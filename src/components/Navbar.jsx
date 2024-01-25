@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Navbar = () => {
   return (
-    <nav className="md:h-[84px] w-[90%] max-w-[1778px] mx-auto rounded-[100px] bg-[#F2F4F7] border border-[#D0D5DD] py-4 px-8 flex items-center justify-between mt-[40px] mb-[40px] md:mb-[100px]">
+    <nav className="md:h-[84px] w-[95%] max-w-[1778px] mx-auto rounded-[100px] bg-[#F2F4F7] border border-[#D0D5DD] py-4 px-8 flex items-center justify-between mt-[40px] mb-[40px] md:mb-[100px]">
       <div className="flex gap-[10px] items-center cursor-pointer">
         <img src="/icons/Logo.svg" alt="" />
         <span className="text-[#101828] font-semibold text-lg md:text-2xl">
@@ -12,7 +12,7 @@ const Navbar = () => {
         </span>
       </div>
 
-      <ul className="hidden md:flex items-center gap-10">
+      <ul className="hidden lg:flex items-center gap-5 xl:gap-10">
         <Navlink text="Products" hasDropdown />
         <Navlink text="Solutions" hasDropdown />
         <Navlink text="Resources" hasDropdown />

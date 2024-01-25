@@ -2,7 +2,7 @@ import FAQItem from "../components/FAQItem";
 
 const FAQs = () => {
   return (
-    <section className="px-6 xl:px-[160px] py-10 md:py-[96px] min-h-[912px] max-w-[1778px] w-full bg-white flex flex-col md:flex-row items-start justify-between gap-[96px]">
+    <section className="px-6 xl:px-[56px] 2xl:px-[130px] py-10 md:py-[96px] min-h-[912px] max-w-[1778px] w-full bg-white flex flex-col lg:flex-row items-start justify-between gap-[96px]">
       <div>
         <h3 className="text-[#175CD3] font-semibold text-sm md:text-lg  ">
           Support
